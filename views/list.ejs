@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>読書済みの本リスト</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <h1>読書済みの本リスト</h1>
+        <table border="1">
+            <tr><th>番号</th><th>タイトル</th><th>操作</th></tr>
+            <% books.forEach(book => { %>
+                <tr>
+                    <td><%= book.no %></td>
+                    <td><%= book.bookname %></td>
+                    <td>
+                        <form action="/edit/<%= book.no %>" method="post">
+                            <input type="submit" value="修正">
+                        </form>
+                        <form action="/delete/<%= book.no %>" method="post">
+                            <input type="submit" value="削除">
+                        </form>
+                    </td>
+                </tr>
+            <% }) %>
+        </table>
+        <br><a href="/">戻る</a>
+    </body>
+</html>

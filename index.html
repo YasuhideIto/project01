@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SQLiteで簡単なデータベース操作</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h1>読んでみた本を＜読書済みの本リスト＞に追加、表示する</h1>
+
+    <form action="/add" method="post">
+     本のタイトル   <input type="text" name="bookname"><br>
+     <input type="submit" value="追加">
+     <!--↓のvalueのあとにformactionを追加20260331-->
+     <input type="submit" value="表示" formaction="/list">
+
+    </form>
+
+
+</body>
+
+</html>

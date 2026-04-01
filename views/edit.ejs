@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>修正</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <h1>本の情報を修正する</h1>
+        <form action="/update" method="post">
+            <input type="hidden" name="no" value="<%= book.no %>">
+            番号: <%= book.no %><br>
+            本のタイトル <input type="text" name="bookname" value="<%= book.bookname %>"><br>
+            <input type="submit" value="更新">
+        </form>
+        <br><a href="/">戻る</a>
+    </body>
+</html>
