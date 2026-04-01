@@ -21,10 +21,10 @@ https://project01-tx84.onrender.com
 > 無料プランのため、しばらくアクセスがない場合は起動に30秒〜1分かかることがあります。
 
 ## 起動方法
-\```bash
+```bash
 npm install
 node server.js
-\```
+```
 ブラウザで http://localhost:3000 にアクセス
 
 
