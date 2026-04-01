@@ -21,6 +21,8 @@ https://project01-tx84.onrender.com
 > 無料プランのため、しばらくアクセスがない場合は起動に30秒〜1分かかることがあります。
 
 ## 起動方法
+### bashかcmdで下記のコマンドを打ってください。
+
 ```bash
 npm install
 node server.js
