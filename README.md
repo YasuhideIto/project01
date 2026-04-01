@@ -3,11 +3,11 @@
 読んだ本を記録・管理するWebアプリです
 
 ## 使用した技術
--HTML / CSS
--Node.js
--Express
--SQLite(better-sqlite3)
--EJS
+- HTML / CSS
+- Node.js
+- Express
+- SQLite(better-sqlite3)
+- EJS
 
 ## 機能
 - 本の追加
