@@ -23,9 +23,8 @@ https://project01-tx84.onrender.com
 ## ローカルでの起動方法
 
 ### 事前準備
-以下の2つをインストールしてください。
+以下の2つがインストールされていない場合はインストールしてください。
 
-  node js が入っていない方
 - [Node.js](https://nodejs.org) ← LTS版を推奨
 
 - [Git](https://git-scm.com)
