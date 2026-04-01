@@ -25,7 +25,7 @@ https://project01-tx84.onrender.com
 ### 事前準備
 以下の2つをインストールしてください。
 
-> node js が入っていない方
+  node js が入っていない方
 - [Node.js](https://nodejs.org) ← LTS版を推奨
 
 - [Git](https://git-scm.com)
